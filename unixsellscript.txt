@@ -1,0 +1,14 @@
+Q. This question is to test your aptitude for writing small shell scripts on Unix. 
+   You are given this URL amfiindia.com/spages/NAVAll.txt. 
+   Write a shell script that extracts the Scheme Name and Asset Value fields only and saves them in a csv file.
+
+Ans - #!/bin/bash
+
+    # Download the file from the URL and save it as NAVAll.txt
+    wget amfiindia.com/spages/NAVAll.txt -O NAVAll.txt
+
+    # Extract Scheme Name and Asset Value fields and save them in output.csv
+    cat NAVAll.txt | awk -F ';' '{print $4 "," $5}' > output.csv
+
+    # Print success message
+    echo "Scheme Name and Asset Value fields extracted and saved in output.csv"

@@ -1,0 +1,9 @@
+Q. Which is an interesting data set you discovered recently? 
+    Why is it your favorite? No datasets on Kaggle, please.
+
+Ans :- There is lots of dataset is available but I think I found climent change data is interesting
+        because there is listing the CO2 level globally and also CO2 emission from fossile fuel by different
+        nations. like we always talk about USA and China but there level of producing CO2 is increasing
+        on daily basis and even not in little amount it is huge despite of that they talk about climet 
+        change and saving enviroment thing that really odd to me that that who talk lot about saving enviroment
+        are causing the enviroment damange. 
